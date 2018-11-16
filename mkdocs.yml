@@ -1,0 +1,72 @@
+# Project Information
+site_name: Yacs
+site_description: the free, open source course scheduler
+site_author: Yacs Team
+site_url: https://yacs.v2grad.ga
+strict: true
+
+# Repository
+repo_name: 'V2grad/yacs-material'
+repo_url: 'https://github.com/V2grad/yacs-material'
+edit_uri: 'blob/master/docs/'
+
+# Copyright
+copyright: 'Copyright &copy; 2014 - 2018 Yacs Team'
+
+
+theme:
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  include_search_page: false
+  search_index_only: true
+  favicon: 'favicon.ico'
+
+  logo:
+    icon: 'school'
+  feature:
+    tabs: true
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+
+
+# Customization
+extra:
+  search:
+    language: 'en'
+  disqus: 'Yacs'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a>'
+  pagetime: 'on'
+
+extra_javascript:
+  - '_static/js/extra.js?v=1'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
