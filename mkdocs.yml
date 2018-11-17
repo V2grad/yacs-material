@@ -3,7 +3,7 @@ site_name: Yacs
 site_description: the free, open source course scheduler
 site_author: Yacs Team
 site_url: https://yacs.v2grad.ga
-strict: true
+strict: false
 
 # Repository
 repo_name: 'V2grad/yacs-material'
