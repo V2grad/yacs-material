@@ -15,7 +15,7 @@ copyright: 'Copyright &copy; 2014 - 2018 Yacs Team'
 
 theme:
   name: null
-  custom_dir: 'material'
+  custom_dir: 'mkdocs-material/material'
   language: 'en'
   palette:
     primary: 'white'
