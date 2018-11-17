@@ -13,10 +13,10 @@ edit_uri: 'blob/master/docs/'
 # Copyright
 copyright: 'Copyright &copy; 2014 - 2018 Yacs Team'
 
-
 theme:
   name: null
   custom_dir: 'mkdocs-material/material'
+  language: 'en'
   palette:
     primary: 'white'
     accent: 'red'
@@ -38,11 +38,18 @@ extra:
   search:
     language: 'en'
   disqus: 'Yacs'
+  social:
+    - type: 'github'
+      link: 'https://github.com/YACS-RCOS/'
+    # - type: 'twitter'
+    #   link: 'https://github.com/YACS-RCOS/'
   copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a>'
-  pagetime: 'on'
 
 extra_javascript:
   - '_static/js/extra.js?v=1'
+
+extra_css:
+  - '_static/css/extra.css?v=1'
 
 markdown_extensions:
   - admonition
