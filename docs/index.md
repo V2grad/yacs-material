@@ -1,30 +1,84 @@
-title: OI Wiki
+title: Yacs Wiki
 disqus: 
 <!--wip: if this is defined then an alert will rendered.-->
 
-# 欢迎来到 **OI Wiki**。[![GitHub watchers](https://img.shields.io/github/watchers/24OI/OI-Wiki.svg?style=social&label=Watch)](https://github.com/24OI/OI-wiki) [![GitHub stars](https://img.shields.io/github/stars/24OI/OI-Wiki.svg?style=social&label=Stars)](https://github.com/24OI/OI-wiki)
+# Welcome to Yacs! [![GitHub watchers](https://img.shields.io/github/watchers/yacs-rcos/yacs.svg?style=social&label=Watch)](https://github.com/yacs-rcos/yacs) [![GitHub stars](https://img.shields.io/github/stars/yacs-rcos/yacs.svg?style=social&label=Stars)](https://github.com/yacs-rcos/yacs)
 
-<!-- [![Word Art](./images/wordArt.png)](https://github.com/24OI/OI-wiki) -->
+It's so good to see you!
 
-**OI** （Olympiad in Informatics，信息学奥林匹克竞赛）在中国起源于 1984 年，是五大高中学科竞赛之一。自 1989 年起，每年还会选拔出国家集训队选手准备 IOI (International Olympiad in Informatics，国际信息学奥林匹克竞赛)。
+<p align="center">
+  <img src="./_static/media/logo.png"/>
+</p>
 
-**ACM-ICPC** （ACM International Collegiate Programming Contest, ACM 国际大学生程序设计竞赛）由美国计算机协会（ACM）主办，由 ICPC 基金会负责组织，是最具影响力的大学生计算机竞赛。ICPC 主要分为区域赛（Regional）和总决赛（World Finals）两部分。
+## What is Yacs?
 
-**OI Wiki** 致力于成为一个免费开放且持续更新的知识整合站点，大家可以在这里获取关于 **编程竞赛 (competitive programming)** 有趣又实用的知识，我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛。
+Yacs was created with the goal of making students' lives a little easier.
+It allows users to avoid the clunky UIs of proprietary Catalog Management and Student Information Systems, replacing these unpleseant experiences with easy browsing and searching of courses, and adds the additional functionality of easy schedule generation, and much more.
 
-本项目受 [CTF Wiki](https://ctf-wiki.github.io/ctf-wiki/) 的启发，在编写过程中参考了诸多资料，在此一并致谢。
+But Yacs has grown to be much more than a simple schedule generator.
+Our mission at Yacs is the following:
 
-本项目文档内容托管在 [GitHub](https://github.com/24OI/OI-wiki)，主要使用 [Issues](https://github.com/24OI/OI-wiki/issues) / [QQ](https://jq.qq.com/?_wv=1027&k=5EfkM6K) / [Telegram](https://t.me/OIwiki) / [Discord](https://discord.gg/xXdYSMq) 进行交流沟通，期待你的加入。
+> 1. To alleviate the stress around academic and extracurrciluar planning for Students, Faculty and Staff by offering a Free, easy-to-use interface to supplement or replace traditional academic information and management systems.
 
-Telegram 群组链接为 [@OIwiki](https://t.me/OIwiki) ， QQ 群号码为 [`588793226`](https://jq.qq.com/?_wv=1027&k=5EfkM6K)，欢迎加入。
+> 2. To enable innovative, disruptive applications in the academic space by breaking down propreitary information silos and providing consistent, digestible, Open Data.
 
-## Material color palette 颜色主题
+> 3. To empower students to take control of their academic experience and excel their careers through learning about and contributing to Open Source.
 
-### Primary colors 主色
+Further, Yacs aims to provide the best experience possible to as many people as possible by serving as many universities as we can.
+Yacs is built from the ground up to be modular and flexible, and as such can use data from any source, and even combine data from many sources in an intelligent way.
 
-> 默认 `white`
+We have made it as easy as possible to connect Yacs to your university, and have designed this process to be accessible to developers of nearly any skill level.
+Please read through this documentation or contact us if you'd like to bring Yacs to your school, and help us make Yacs as great as it can be.
 
-点击色块可更换主题的主色
+Yacs owes its creation and continued maintenance to [RCOS](https://rcos.io), the Rensselaer Center for Open Source, and is developed in collaboration with [BUGS](https://bugs-nyu.github.io/), NYU's Open Source Club.
+
+## About this site
+This site is the home of (nearly) all Yacs documetation.
+Like all Yacs projects, this documentation is free and open source, and lives [in our Github](https://github.com/yacs-rcos/docs).
+
+## How to Read These Docs
+The Yacs documentation is divided into several sections.
+Each section and its purpose is described here.
+
+### Overview
+Start Here!
+This section contains the about page, which explains what Yacs is, why it exists, where we are, and where we plan to go.
+This section also contains the [Code of Conduct](overview/code_of_conduct).
+By participating in the Yacs community, you are agreeing to follow the Code of Conduct.
+Understanding and following the Code of Conduct is extremely important for the health and success of the project, its contributors, and the Yacs community.
+
+### Contributing
+Look here if you want to contribute to Yacs, run the software on your machine, or just play around with the source.
+Here you will find installation instructions, project management information, and tips on how and where to get started.
+
+### Architecture
+Here you will find the nitty-gritty details about how Yacs works.
+This is a useful resource if you are looking to tackle a larger issue, or want to work towards bringing Yacs to your university.
+
+### User Guides
+This section contains user guides specific to each of the roles that use yacs.
+This section is currenrly under construction.
+
+### API Docs
+Yacs has a public API! This API can be used to build all sorts of interesting, useful, or silly applications using the power of open data.
+If you have an idea for something to build using the Yacs API, or are looking for inspiration, we'd love to hear from you!
+
+### Afterword
+Yacs is an open, safe community, and this site is a living document.
+So please treat it as such!
+If you find these docs to be insufficient, or you think you can do better, by all means let us know or open a pull request.
+We encourage contributions from all, no matter how big or small.
+
+> _When people help us to feel good about who we are, they are helping us love the meaning of what we create in this life_ - Mr. Rogers
+
+
+## Material color palette
+
+### Primary colors
+
+> default `white`
+
+Choose the color you want.
 
 <div id="color-button">
 <button data-md-color-primary="red">Red</button>
@@ -59,11 +113,11 @@ Telegram 群组链接为 [@OIwiki](https://t.me/OIwiki) ， QQ 群号码为 [`58
   })
 </script>
 
-### Accent colors 辅助色
+### Accent colors
 
-> 默认 `red`
+> default `red`
 
-点击色块更换主题的辅助色
+Choose the color you want.
 
 <div id="color-button">
 <button data-md-color-accent="red">Red</button>

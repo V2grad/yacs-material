@@ -24,13 +24,34 @@ theme:
   search_index_only: true
   favicon: 'favicon.ico'
 
-  logo:
-    icon: 'school'
+  logo: '_static/media/logo.svg'
   feature:
     tabs: true
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
+
+
+nav:
+  - Overview:
+    - Welcome to Yacs: index.md
+    - Code Of Conduct: overview/code_of_conduct.md
+    - Roadmap: overview/roadmap.md
+  - Contributing:
+    - Getting Started: contributors/getting_started.md
+    - Setup Guide: contributors/setup_guide.md
+    - Installing Docker: contributors/installing_docker.md
+    - Running Yacs: contributors/running_yacs.md
+  - Architecture:
+    - Overview: architecture/overview.md
+    - Service Map: architecture/service_map.md
+    - Adapters: architecture/adapters.md
+  - User Guides:
+    - Students: user_guides/students.md
+    - Faculty: user_guides/faculty.md
+    - Administrators: user_guides/administrators.md
+  - API:
+    - Usage: api/usage.md
 
 
 # Customization
